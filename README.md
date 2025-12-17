@@ -146,4 +146,33 @@ Swagger UI:
 
   <img width="1871" height="896" alt="image" src="https://github.com/user-attachments/assets/60a5af34-7115-4faf-9f86-a9d89e753633" />
 
+☁️Hosting
 
+  Designed for deployment on Render / Railway
+  
+  Public API URL used in final submission
+  
+  All endpoints are accessible for automated testing
+  
+🔮Future Improvements
+
+  Add LLM-based explanation for recommendations
+  
+  Personalization based on role seniority
+  
+  Feedback loop to improve ranking
+  
+  Multi-language support
+  
+📌Conclusion
+
+  This project demonstrates a production-ready AI recommendation system using modern NLP and vector search techniques.
+  The architecture emphasizes scalability, clarity, and real-world applicability, aligning closely with SHL’s assessment and hiring intelligence use cases.
+  
+👤Author
+
+  Manoj P M
+  manojpoojari1511@gmail.com
+  B.E. Computer Science and Engineering
+  AI / Backend / Full-Stack Developer
+  
