@@ -64,9 +64,23 @@
     └── README.md
 
 🔍Data Collection
-    Scraped SHL’s public product catalog and individual assessment pages
-    Removed category-level and generic marketing pages
-    Final dataset contains ~278+ individual assessments with:
-      Assessment name
-      Description
-      Product URL
+
+  Scraped SHL’s public product catalog and individual assessment pages
+  
+  Removed category-level and generic marketing pages
+  
+  Final dataset contains ~278+ individual assessments with:
+  
+    Assessment name    
+    Description
+    Product URL
+
+🧠Embedding & Retrieval
+
+  Each assessment is embedded using all-MiniLM-L6-v2
+  
+  Embeddings are stored in a FAISS IndexFlatL2
+  
+  Query embeddings are matched using vector similarity
+  
+  Generic pages are filtered during retrieval
