@@ -84,3 +84,8 @@
   Query embeddings are matched using vector similarity
   
   Generic pages are filtered during retrieval
+
+🌐 API Endpoints
+    Health Check
+    
+    GET /health
