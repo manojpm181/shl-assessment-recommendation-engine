@@ -26,13 +26,14 @@
 
   <img width="2910" height="3665" alt="Assessment Recommendation-2025-12-17-092948" src="https://github.com/user-attachments/assets/9d26336b-e05f-4868-ab1d-98f15e947a7a" />
     
-
-🛠️Technology Stack
-      Layer	- Technology
-      Backend	- FastAPI
-      Scraping	- requests, BeautifulSoup
-      Embeddings	- SentenceTransformers (all-MiniLM-L6-v2)
-      Vector Store	-FAISS
-      Frontend	- HTML + JavaScript
-      Hosting	-  Railway
-      Evaluation	- Recall@10
+----------------------------------------------------------
+| Layer        | Technology                              |
+| ------------ | --------------------------------------- |
+| Backend      | FastAPI                                 |
+| Scraping     | requests, BeautifulSoup                 |
+| Embeddings   | SentenceTransformers (all-MiniLM-L6-v2) |
+| Vector Store | FAISS                                   |
+| Frontend     | HTML + JavaScript                       |
+| Hosting      | Railway                        |
+| Evaluation   | Recall@10                               |
+----------------------------------------------------------
