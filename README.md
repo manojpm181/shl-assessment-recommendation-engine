@@ -86,6 +86,21 @@
   Generic pages are filtered during retrieval
 
 🌐 API Endpoints
-    Health Check
+
+  Health Check
     
     GET /health
+
+  Response
+    <img width="1778" height="679" alt="image" src="https://github.com/user-attachments/assets/26601092-773f-4e15-a582-19bfa57ff0ca" />
+
+Recommendation Endpoint
+
+      POST /recommend
+      
+  Request
+  
+  <img width="1782" height="470" alt="image" src="https://github.com/user-attachments/assets/8a02c100-a1cc-4333-b01e-ec554da8bd3e" />
+
+      
+
