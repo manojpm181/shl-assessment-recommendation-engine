@@ -63,3 +63,10 @@
     ├── requirements.txt
     └── README.md
 
+🔍Data Collection
+    Scraped SHL’s public product catalog and individual assessment pages
+    Removed category-level and generic marketing pages
+    Final dataset contains ~278+ individual assessments with:
+      Assessment name
+      Description
+      Product URL
