@@ -34,6 +34,32 @@
 | Embeddings   | SentenceTransformers (all-MiniLM-L6-v2) |
 | Vector Store | FAISS                                   |
 | Frontend     | HTML + JavaScript                       |
-| Hosting      | Railway                        |
+| Hosting      | Railway                                 |
 | Evaluation   | Recall@10                               |
 ----------------------------------------------------------
+
+📁 Project Structure
+
+    shl-assessment-rag/
+    │
+    ├── scraper/
+    │   └── scrape_shl.py          # Scrapes SHL assessment data
+    │
+    ├── data/
+    │   ├── raw_assessments.json   # Cleaned assessment data
+    │   └── embeddings.faiss       # FAISS vector index
+    │
+    ├── backend/
+    │   ├── app.py                 # FastAPI application
+    │   ├── recommender.py         # RAG logic
+    │   └── schema.py              # API request/response models
+    │
+    ├── evaluation/
+    │   └── recall.py              # Recall@10 evaluation
+    │
+    ├── frontend/
+    │   └── index.html             # Web UI
+    │
+    ├── requirements.txt
+    └── README.md
+
