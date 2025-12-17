@@ -116,3 +116,34 @@ Recommendation Endpoint
   
 -> Uses the /recommend API endpoint
 
+⚙️ Setup Instructions
+1️⃣ Install Dependencies
+
+    pip install -r requirements.txt
+
+2️⃣ Scrape SHL Data
+
+    python scraper/scrape_shl.py
+
+3️⃣ Build FAISS Index
+
+    python -c "from backend.recommender import SHLRecommender; SHLRecommender()"
+
+4️⃣ Run API
+
+    uvicorn backend.app:app --reload
+    
+<img width="1194" height="907" alt="image" src="https://github.com/user-attachments/assets/c412791a-0751-4926-8e36-687e349c1993" />
+
+
+API available at:
+
+    http://127.0.0.1:8000
+    
+Swagger UI:
+
+    http://127.0.0.1:8000/docs
+
+  <img width="1871" height="896" alt="image" src="https://github.com/user-attachments/assets/60a5af34-7115-4faf-9f86-a9d89e753633" />
+
+
