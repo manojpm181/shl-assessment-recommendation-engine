@@ -102,5 +102,17 @@ Recommendation Endpoint
   
   <img width="1782" height="470" alt="image" src="https://github.com/user-attachments/assets/8a02c100-a1cc-4333-b01e-ec554da8bd3e" />
 
-      
+  Response
+
+  <img width="1775" height="911" alt="image" src="https://github.com/user-attachments/assets/f15464d0-4559-44b9-aefe-bb1d492992ab" />
+
+🖥️Web Interface
+
+  Simple HTML + JavaScript frontend
+  
+  Accepts hiring requirements as input
+  
+  Displays recommended assessments in a table
+  
+  Uses the /recommend API endpoint
 
