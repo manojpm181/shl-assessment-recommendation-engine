@@ -108,11 +108,11 @@ Recommendation Endpoint
 
 🖥️Web Interface
 
-  Simple HTML + JavaScript frontend
+-> Simple HTML + JavaScript frontend
   
-  Accepts hiring requirements as input
+-> Accepts hiring requirements as input
   
-  Displays recommended assessments in a table
+-> Displays recommended assessments in a table
   
-  Uses the /recommend API endpoint
+-> Uses the /recommend API endpoint
 
