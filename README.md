@@ -148,11 +148,7 @@ Swagger UI:
 
 ☁️Hosting
 
-  Designed for deployment on Render / Railway
-  
-  Public API URL used in final submission
-  
-  All endpoints are accessible for automated testing
+  Due to resource limits on free hosting tiers (FAISS + transformer models), the system is designed for local execution. The API endpoints are fully functional      when run locally using FastAPI.
   
 🔮Future Improvements
 
